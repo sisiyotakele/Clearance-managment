@@ -2,7 +2,8 @@
 Advanced Programming final project
 
 ## contributors 
-[tamirat](https://github.com/tamirat-dejene)
+Sisiyo Takele
+
 
 ## Table of Contents
 
@@ -19,21 +20,12 @@ To contribute:
 
 1. Fork the repository by clicking the 'Fork' button on the top-right corner of this page.
 2. Clone the forked repository to your local machine:
-    ```bash
-    git clone https://github.com/tamirat-dejene/aastu-student-clearance-ms.git
-    ```
+    
 3. Create a new branch to work on:
-    ```bash
-    git checkout -b your-branch-name
-    ```
+   
    Make sure to name your branch appropriately, indicating the feature or fix you are working on.
 5. Make your changes and commit them:
-    ```bash
-    git commit -am 'Add new feature or fix'
-    ```
+   
 6. Push your changes to your forked repository:
-    ```bash
-    git push origin your-branch-name
-    ```
-7. Create a Pull Request (PR) by visiting [https://github.com/tamirat-dejene/aastu-student-clearance-ms.git](https://github.com/tamirat-dejene/aastu-student-clearance-ms.git)
-8. Once the PR is created, it will be reviewed.
+   
+
