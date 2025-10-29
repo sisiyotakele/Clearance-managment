@@ -1,0 +1,97 @@
+.reset-pwd-page {
+  -fx-background-color: transparent;
+  -fx-padding: 20px;
+}
+
+.reset-pw-head {
+  -fx-font-size: 24px;
+  -fx-font-family: "Arial";
+  -fx-text-fill: #042C54;
+  -fx-font-weight: bold;
+}
+
+.email-label,
+.id-label,
+.new-pwd-label,
+.otp-label {
+  -fx-font-size: 14px;
+  -fx-font-family: "Arial";
+  -fx-text-fill: #fefefe;
+  -fx-font-weight: bold;
+}
+
+.reset-pw-textfield {
+  -fx-border-radius: 5px;
+  -fx-background-radius: 5;
+  -fx-border-color: goldenrod;
+  -fx-background-color: transparent;
+  -fx-padding: 5px;
+  -fx-font-size: 14px;
+  -fx-font-family: "Arial";
+  -fx-text-fill: #ffffff;
+  -fx-transition: border-color 0.3s, -fx-effect 0.3s;
+}
+
+.reset-pw-textfield:focused {
+  -fx-border-color: #7aa3e3;
+  -fx-effect: dropshadow(three-pass-box, rgba(122, 163, 227, 0.5), 10, 0.0, 0, 0);
+}
+
+.confirm-reset-btn {
+  -fx-background-color: #218838;
+  -fx-border-color: #1e7e34;
+  -fx-text-fill: white;
+  -fx-font-weight: bold;
+  -fx-border-radius: 5px;
+  -fx-background-radius: 5;
+  -fx-padding: 3px 6px;
+  -fx-cursor: hand;
+  -fx-transition: background-color 0.3s, border-color 0.3s, -fx-scale-x 0.3s, -fx-scale-y 0.3s;
+}
+
+.confirm-reset-btn:hover {
+  -fx-background-color: #1c7430;
+  -fx-border-color: #19692c;
+  -fx-scale-x: 1.01;
+  -fx-scale-y: 1.01;
+}
+
+.confirm-reset-btn:pressed {
+  -fx-background-color: #1a6629;
+  -fx-border-color: #155d24;
+  -fx-scale-x: 0.99;
+  -fx-scale-y: 0.99;
+}
+
+.back-home-btn {
+  -fx-background-color: #ffc107;
+  -fx-border-color: #ffc107;
+  -fx-text-fill: white;
+  -fx-font-weight: bold;
+  -fx-border-radius: 5px;
+  -fx-background-radius: 5;
+  -fx-padding: 3px 6px;
+  -fx-cursor: hand;
+  -fx-transition: background-color 0.3s, border-color 0.3s, -fx-scale-x 0.3s, -fx-scale-y 0.3s;
+}
+
+.back-home-btn:hover {
+  -fx-background-color: #e0a800;
+  -fx-border-color: #e0a800;
+  -fx-scale-x: 1.01;
+  -fx-scale-y: 1.01;
+}
+
+.back-home-btn:pressed {
+  -fx-background-color: #d39e00;
+  -fx-border-color: #d39e00;
+  -fx-scale-x: 0.99;
+  -fx-scale-y: 0.99;
+}
+
+.error-message {
+  -fx-font-size: 12px;
+  -fx-text-fill: #ff0000;
+  -fx-font-family: "Arial";
+  -fx-font-weight: bold;
+}
